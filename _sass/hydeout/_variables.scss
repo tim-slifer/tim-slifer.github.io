@@ -1,6 +1,6 @@
 $gray-1: #f9f9f9 !default;
 $gray-2: #e5e5e5 !default;
-$gray-3: #ccc !default;
+$gray-3: #cccccc !default;
 $gray-4: #767676 !default;
 $gray-5: #515151 !default;
 $gray-6: #313131 !default;
@@ -21,7 +21,7 @@ $root-line-height: 1.5 !default;
 
 $body-color: $gray-5 !default;
 $body-muted: $gray-4 !default;
-$body-bg: #fff !default;
+$body-bg: #ffffff !default;
 $link-color: $blue !default;
 $heading-color: $gray-6 !default;
 
@@ -38,10 +38,7 @@ $large-font-size: 1.25rem !default;
 
 $box-shadow-size: 1px !default;
 $box-shadow-opacity: 0.16 !default;
-$default-box-shadow: $box-shadow-size
-                     $box-shadow-size
-                     $box-shadow-size
-                     rgba(0, 0, 0, $box-shadow-opacity);
+$default-box-shadow: $box-shadow-size $box-shadow-size $box-shadow-size rgba(0, 0, 0, $box-shadow-opacity);
 
 // $code-font-family: Menlo, Monaco, "Courier New", monospace !default;
 $code-font-family: 'Source Code Pro', monospace !default;
