@@ -1,31 +1,56 @@
 <nav id="sidebar-icon-links">
-    {% if site.hydeout.repo %}
-    <a id="github-link" class="icon" title="Github Project" aria-label="Github Project" href="{{ site.hydeout.repo }}">
-        {% include svg/github.svg %}
+    <a id="email-link" class="icon" title="Email" aria-label="Email" href="mailto:hello@slifer.io">
+        <i class="fas fa-at"></i>
     </a>
-    <a id="github-download-link" class="icon" title="Download" aria-label="Download"
-       href="{{ site.hydeout.repo }}/archive/v{{ site.hydeout.version }}.zip">
-        {% include svg/download.svg %}
+    <a id="github-link" class="icon" title="Github Account" aria-label="Github Account"
+       href="{{ site.github.account }}">
+        <i class="fab fa-github"></i>
     </a>
-    {% endif %}
+    <a id="gitlab-link" class="icon" title="Gitlab Account" aria-label="Gitlab Account"
+       href="{{ site.github.account }}">
+        <i class="fab fa-gitlab"></i>
+    </a>
+    <a id="stack-overflow-link" class="icon" title="Stack-Overflow Profile" aria-label="Stack-Overflow Profile"
+       href="{{ site.stackoverflow }}">
+        <i class="fab fa-stack-overflow"></i>
+    </a>
+    <a id="linkedin-link" class="icon" title="Linkedin Profile" aria-label="Linkedin Profile"
+       href="{{ site.linkedin }}">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
     
-    <a id="subscribe-link" class="icon" title="Subscribe" aria-label="Subscribe"
-       href="{{ site.baseurl }}/{{ site.feed.path | default: 'feed.xml' }}">
-        {% include svg/feed.svg %}
-    </a>
+    <!--<a id="twitter-link"-->
+    <!--   class="icon" title="Twitter Account" aria-label="Twitter Account"-->
+    <!--   href="{{ site.twitter }}">-->
+    <!--    <i class="fab fa-twitter"></i>-->
+    <!--</a>-->
     
-    {% comment %}
-    Check if we have tag or search pages page active before linking to it.
-    {% endcomment %}
-    {% assign tags_page = false %}
-    {% assign search_page = false %}
-    {% for node in site.pages %}
-    {% if node.layout == "tags" %}
-    {% assign tags_page = node %}
-    {% elsif node.layout == "search" %}
-    {% assign search_page = node %}
-    {% endif %}
-    {% endfor %}
+    <!--{% if site.hydeout.repo %}-->
+    <!--<a id="github-link" class="icon" title="Github Project" aria-label="Github Project" href="{{ site.hydeout.repo }}">-->
+    <!--    {% include svg/github.svg %}-->
+    <!--</a>-->
+    <!--<a id="github-download-link" class="icon" title="Download" aria-label="Download"-->
+    <!--   href="{{ site.github.repo }}/archive/v{{ site.hydeout.version }}.zip">-->
+    <!--    {% include svg/download.svg %}-->
+    <!--</a>-->
+    <!--{% endif %}-->
+    <!--<a id="subscribe-link" class="icon" title="Subscribe" aria-label="Subscribe"-->
+    <!--   href="{{ site.baseurl }}/{{ site.feed.path | default: 'feed.xml' }}">-->
+    <!--    {% include svg/feed.svg %}-->
+    <!--</a>-->
+    
+    <!--{% comment %}-->
+    <!--Check if we have tag or search pages page active before linking to it.-->
+    <!--{% endcomment %}-->
+    <!--{% assign tags_page = false %}-->
+    <!--{% assign search_page = false %}-->
+    <!--{% for node in site.pages %}-->
+    <!--{% if node.layout == "tags" %}-->
+    <!--{% assign tags_page = node %}-->
+    <!--{% elsif node.layout == "search" %}-->
+    <!--{% assign search_page = node %}-->
+    <!--{% endif %}-->
+    <!--{% endfor %}-->
     
     {% if tags_page %}
     <a id="tags-link" class="icon{% if page.url == '/tags' %} active{% endif %}" title="Tags" aria-label="Tags"

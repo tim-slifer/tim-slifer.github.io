@@ -1,12 +1,12 @@
 # Dependencies
-markdown:         kramdown
-highlighter:      rouge
+markdown:           kramdown
+highlighter:        rouge
 
 # Setup
-title:            Tim Slifer
-tagline:          'slifer.io'
-description:      'Engineering automated solutions.'
-url:              https://www.slifer.io
+title:              Tim Slifer
+tagline:            'slifer.io'
+description:        'Engineering automated solutions.'
+url:                https://www.slifer.io
 # baseurl:          '/hydeout'
 # the optional subpath of your site, e.g. "/blog"
 # NB: This applies to all pages in your Jekyll site.
@@ -18,7 +18,7 @@ author:
     name:           'Andrew Fong'
     url:            https://twitter.com/fongandrewc
 
-paginate:         5
+paginate:           5
 # paginate_path:    '/page:num'
 # Or '/blog/page:num' if you want to move your index pages
 
@@ -34,3 +34,11 @@ sidebar_home_link:  true
 # page. If you change your paginate_path,
 # set this to the root of the paginate_path
 # to enable a separate blog link.
+
+github:
+    account:        https://github.com/tim-slifer
+    repo:           https://tim-slifer/tim-slifer.github.io
+gitlab:
+    account:        https://gitlab.com/tim-slifer
+stackoverflow:      https://stackoverflow.com/users/3763338/tim-slifer
+linkedin:           https://linkedin.com/in/timslifer
