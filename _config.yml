@@ -5,7 +5,7 @@ highlighter:        rouge
 # Setup
 title:              Tim Slifer
 tagline:            'slifer.io'
-description:        'Engineering automated solutions.'
+description:        'Automation Engineer'
 url:                https://www.slifer.io
 # baseurl:          '/hydeout'
 # the optional subpath of your site, e.g. "/blog"
@@ -15,8 +15,8 @@ url:                https://www.slifer.io
 # sidebar_blog_link below.
 
 author:
-    name:           'Andrew Fong'
-    url:            https://twitter.com/fongandrewc
+    name:           'Tim Slifer'
+    url:            https://www.slifer.io
 
 paginate:           5
 # paginate_path:    '/page:num'
