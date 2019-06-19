@@ -16,6 +16,7 @@ url:                https://www.slifer.io
 
 author:
     name:           'Tim Slifer'
+    email:          hello@slifer.io
     url:            https://www.slifer.io
 
 paginate:           5
