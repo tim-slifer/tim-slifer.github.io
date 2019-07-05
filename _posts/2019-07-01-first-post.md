@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Uh-oh, he's got a blog now...
+author: Tim Slifer
 excerpt_separator: <!--more-->
 ---
 
