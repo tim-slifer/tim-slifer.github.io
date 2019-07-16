@@ -45,7 +45,7 @@ building the rest of the test project.
 
 The format I always recommend when it comes to sheet-based data is CSV. CSV allows for a usage scenario that is 
 very similar to that of Excel, while avoiding the unnecessary complexity in formatting, formulas, or tabs. 
-Personally, I believe the simplicity of the CSV format allows us to keep out data from getting unnecessarily complex.
+Personally, I believe the simplicity of the CSV format allows us to keep our data from getting unnecessarily complex.
 Since we don't have the ability to mess around with complex formulas, any conditional formatting, or files with 
 multitudes of tabs, we can keep our focus narrow and our approach direct when it comes to managing our data values.
 
