@@ -119,5 +119,5 @@ the project.
 
 I've released Superfly-CSV under the [MIT License](https://opensource.org/licenses/MIT).
 
-> I'd certainly welcome any feedback from anyone that tries out this library. Drop me an [email](contact@slifer.io) and
-> let me know what you think.
+> I'd certainly welcome any feedback from anyone that tries out this library. Drop me an 
+[email](mailto:{{ site.author.email }}) and let me know what you think.
