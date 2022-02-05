@@ -98,6 +98,7 @@ comments:
     issue_term:   # < url | pathname | title | ...>
 
 paginate: 10
+paginate_path: "/blog/page:num/"
 
 # ------------ The following options are not recommended to be modified ------------------
 
