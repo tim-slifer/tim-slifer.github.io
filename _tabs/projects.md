@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Projects
-icon: fas fa-tools
+icon: fas fa-code
 order: 2
 ---
