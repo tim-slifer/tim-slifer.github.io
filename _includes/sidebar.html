@@ -38,6 +38,14 @@
       </a>
     </li>
 
+    <!-- blog -->
+    <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
+      <a href="{{ '/blog' | relative_url }}" class="nav-link">
+        <i class="fa-fw fas fa-microphone ml-xl-3 mr-xl-3 unloaded"></i>
+        <span>{{ site.data.locales[lang].tabs.blog | upcase }}</span>
+      </a>
+    </li>
+
     <!-- the real tabs -->
     {% for tab in site.tabs %}
     <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
@@ -49,17 +57,6 @@
       </a>
     </li> <!-- .nav-item -->
     {% endfor %}
-
-    <!-- blog -->
-    <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
-      <a href="{{ '/blog' | relative_url }}" class="nav-link">
-        <i class="fa-fw fas fa-microphone ml-xl-3 mr-xl-3 unloaded"></i>
-        <span>{{ site.data.locales[lang].tabs.blog | upcase }}</span>
-      </a>
-    </li>
-
-
-
 
   </ul> <!-- ul.nav.flex-column -->
 
