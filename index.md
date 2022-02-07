@@ -11,6 +11,6 @@ I am also the creator and maintainer of [Qadenz](http://qadenz.dev), a Java-base
 
 Check out my other [projects]({{site.url}}/projects) or one of my [blog posts]({{site.url}}/blog).
 
-The best way to contact me currently is via direct message at either [Hearty](https://app.hearty.xyz/user/tim-slifer/) or [LinkedIn](https://www.linkedin.com/in/timslifer/) (just until I get a contact form working on this site). I like bouncing ideas, other shop talk, or general automation advice.
+The best way to contact me currently is via direct message at either [Hearty](https://app.hearty.xyz/user/tim-slifer/) or [LinkedIn](https://www.linkedin.com/in/timslifer/) (just until I get a contact form working on this site).
 
 Thanks for visiting.
