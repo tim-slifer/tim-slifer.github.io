@@ -4,12 +4,14 @@
 
 <div id="topbar-wrapper" class="row justify-content-center">
   <div id="topbar" class="col-11 d-flex h-100 align-items-center justify-content-between">
+
+    <!-- commenting breadcrumb
     <span id="breadcrumb">
 
     {% assign paths = page.url | split: '/' %}
 
     {% if paths.size == 0 or page.layout == 'page' %}
-      <!-- index page -->
+      <!-- index page --
       <span>{{ site.data.locales[lang].tabs.home | capitalize }}</span>
 
     {% else %}
@@ -43,7 +45,10 @@
 
     {% endif %}
 
-    </span><!-- endof #breadcrumb -->
+    </span>
+    -->
+
+    <!-- endof #breadcrumb -->
 
     <i id="sidebar-trigger" class="fas fa-bars fa-fw"></i>
 
