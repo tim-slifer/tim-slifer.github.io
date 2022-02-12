@@ -7,7 +7,7 @@ Hello and welcome. I'm Tim, and I am a Software Developer in QA. I specialize in
 
 My primary area of interest is teams that are either starting out or overhauling existing QA or test automation efforts.
 
-I am also the creator and maintainer of [Qadenz](http://qadenz.dev), a Java-based test automation library built around Selenium and TestNG that provides default suite configurations, a simple API, a unique conditions-based approach to validations, and detailed HTML reports with integrated screenshots. My goal with Qadenz is to take the heavy lifting out of automation development and allow teams to focus instead on rapid development of automated tests.
+I am also the creator and maintainer of [Qadenz](http://qadenz.dev), a Java-based test automation library built around Selenium and TestNG that takes the heavy lifting out of automation development and allow teams to focus instead on rapid creation of automated tests.
 
 Check out my other [projects]({{site.url}}/projects) or one of my [blog posts]({{site.url}}/blog).
 
