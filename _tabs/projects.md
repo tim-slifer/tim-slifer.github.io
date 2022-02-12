@@ -15,7 +15,7 @@ The UI Modeling strategy I encourage with the use of Qadenz is centric to the Lo
 
 Knowing that each team and each testing project will have their own technical needs, I've designed Qadenz to be completely extensible, so that custom configuration and functionality can be implemented without having to make changes to the underlying code-base. This encourages importing the library as a dependency and extending components where necessary, as opposed to the maintainence overhead (and upgrading issues) encountered by forking the project and changing the core code.
 
-Qadenz has had several names and countless revisions and improvements in the 10 years. This has been a continually maintained personal code-base that serves as a reference design for the tools I build at my jobs. At the encouragement of several friends and colleagues, I decided in 2019 to evolve the project once again by rebuilding the project from scratch, finally tackling some long standing challenges, and ultimately releasing the library to the testing community.
+Qadenz has had several names and countless revisions and improvements in the last 10 years. This has been a continually maintained personal code-base that has served as a reference design for the tools I build at my jobs. At the encouragement of several friends and colleagues, I decided in 2019 to evolve the project once again by rebuilding the project from scratch, finally tackling some long standing challenges, and ultimately releasing the library to the testing community.
 
 The code is available on [GitHub](https://github.com/qadenz/qadenz), and documentation is at [qadenz.dev](https://qadenz.dev).
 
@@ -27,13 +27,11 @@ I'm a huge fan of CSS Selectors and I use them exclusively in my automation proj
 
 This project, as implied by the name, injects SizzleJS onto the DOM of the UI under test. This introduces handy pseudo-classes for selector expressions such as `:contains()` for matching inner text, `:eq()` for instance matching, and various relative-position options.
 
-The injector extends the Selenium `By` class and follows the very same patterns for initializing elements as the other selector types. Initializing a `WebElement` using a Sizzle selector is as simple as passing a slightly different argument to the `WebDriver`:
+This began as a means to move past using XPath selectors in my Page Objects, and was originally based on an example I found in a blog post that has long since disappeared. As I became more familiar with the components in the Selenium library concerning element initialization (specifically the `By` class and the various selector type objects), I refined the design of the injector to follow more closely the design patterns set forth in Selenium. Initializing a `WebElement` using a Sizzle selector is as simple as passing a slightly different argument to the `WebDriver`:
 
 ```java
 driver.findElement(BySizzle.css("#loginForm .button:contains('sign in')"));
 ```
-
-I had implemented a more crude solution for injecting SizzleJS in one of my early automation projects. After extolling the benefits of this approach to some fellow engineers and their subsequent interest in trying it out themselves, I decided to refine my solution and follow an existing design pattern within Selenium, and release it as it's own library.
 
 The Sizzle Injector is available on [GitHub](https://github.com/tim-slifer/webdriver-sizzle-injector), and is licensed under the [MIT License](https://github.com/tim-slifer/webdriver-sizzle-injector/blob/master/LICENSE).
 
