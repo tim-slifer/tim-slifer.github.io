@@ -1,17 +1,29 @@
-# hidden files
-.*
-!.git*
-!.editorconfig
-!.nojekyll
-!.travis.yml
+# Hugo build artifacts
+/public/
+/resources/
+/assets/js/bundle.js
+/assets/css/main.css
 
-# bundler cache
-_site
-vendor
+# Hugo cache files
+/hugo_stats.json
 
-# rubygem
-*.gem
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+ehthumbs.db
 
-# npm dependencies
-node_modules
-package-lock.json
+# Node.js dependencies (if using npm/yarn for assets)
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# Python virtual environment (if using for scripts)
+/venv/
+
+# Hugo theme submodule (if you're using a Git submodule for your theme)
+/themes/*
+
+# Ignore generated files from the editor
+.idea/
+.vscode/
