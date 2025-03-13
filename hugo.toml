@@ -1,0 +1,4 @@
+baseURL = 'https://slifer.dev/'
+languageCode = 'en-us'
+title = 'Tim Slifer'
+theme = "triple-hyde"
