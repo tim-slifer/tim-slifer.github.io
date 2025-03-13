@@ -1,4 +1,41 @@
-baseURL = 'https://slifer.dev/'
-languageCode = 'en-us'
-title = 'Tim Slifer'
+## Basic Configuration
+baseurl = "https://example.com/"
+languageCode = "en"
+title = "Tim Slifer"
 theme = "triple-hyde"
+
+## Site Settings
+[params]
+    #author = "Author"
+    #title = "Title"
+
+    # sidebar, copyright & license
+    authorimage = "/img/1.jpg"
+    copyright = "Tim Slifer"
+    since = 2025
+    license = "CC BY-NC-ND"
+    licenseURL = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+    showBuiltWith = true
+
+## Social Accounts
+[params.social]
+    github = "tim-slifer"
+    linkedin = "timslifer"
+    stackoverflow = "3763338/tim-slifer"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "Portfolio"
+    identifier = "portfolio"
+    weight = 200
+    url = "/portfolio/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
