@@ -24,13 +24,13 @@ theme = "triple-hyde"
     stackoverflow = "3763338/tim-slifer"
 
 ## Main Menu
+# [[menu.main]]
+#     name = "Posts"
+#     weight = 100
+#     identifier = "posts"
+#     url = "/posts/"
 [[menu.main]]
-    name = "Posts"
-    weight = 100
-    identifier = "posts"
-    url = "/posts/"
-[[menu.main]]
-    name = "Portfolio"
+    name = "Projects"
     identifier = "portfolio"
     weight = 200
     url = "/portfolio/"

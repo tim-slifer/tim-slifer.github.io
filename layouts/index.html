@@ -1,0 +1,25 @@
+{{ define "header" }}
+  {{ partial "header.html" . }}
+{{ end }}
+
+{{ define "content" }}
+  <div class="post-content">
+    {{ with .Site.GetPage "page" "about" }}
+      <article class="post">
+        <h1>{{ .Title }}</h1>
+        <div class="post-content">
+          {{ .Content }}
+        </div>
+      </article>
+    {{ else }}
+      <p>Welcome! The About page could not be found.</p>
+    {{ end }}
+  </div>
+{{ end }}
+
+{{ define "footer" }}
+  {{ if .Site.Config.Services.GoogleAnalytics.ID }}
+    <!-- Google Analytics -->
+    {{ template "_internal/google_analytics.html" . }}
+  {{ end }}
+{{ end }}
