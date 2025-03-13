@@ -8,6 +8,7 @@ theme = "triple-hyde"
 [params]
     #author = "Author"
     #title = "Title"
+    description = "Building and scaling QA teams, promoting Culture of Quality"
 
     # sidebar, copyright & license
     authorimage = "/img/1.jpg"
