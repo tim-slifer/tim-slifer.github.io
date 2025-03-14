@@ -37,6 +37,6 @@ theme = "triple-hyde"
     url = "/"
 [[menu.main]]
     name = "Projects"
-    identifier = "portfolio"
+    identifier = "projects"
     weight = 200
-    url = "/portfolio/"
+    url = "/projects/"
