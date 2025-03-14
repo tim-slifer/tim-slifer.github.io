@@ -31,12 +31,12 @@ theme = "triple-hyde"
 #     identifier = "posts"
 #     url = "/posts/"
 [[menu.main]]
+    name = "Home"
+    identifier = "home"
+    weight = 100
+    url = "/"
+[[menu.main]]
     name = "Projects"
     identifier = "portfolio"
     weight = 200
     url = "/portfolio/"
-[[menu.main]]
-    name = "About"
-    identifier = "about"
-    weight = 300
-    url = "/about/"

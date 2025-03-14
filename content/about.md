@@ -2,8 +2,10 @@
 title = "About Me"
 +++
 
-I'm Tim, and I am a Software Developer in QA. I specialize in test automation development, with a focus on team enablement and maturation. This equates not only to putting the right tools, process, and people into place, but also getting outside the box to help solve the testing challenges presented by an application. I work to bring automation teams online, make them operational, and quickly adding value to both the testing efforts and general product quality.
+I'm Tim. I'm a QA Engineer. My speciality is building QA teams from the ground up, integrating cross-functionally with other disciplines across the org, and setting up to scale as a company grows. I focus heavily on automation, but strive to build a fully documented and traceable suite of tests through both the manual and automated testing paths.
 
-My primary area of interest is teams that are either starting out or overhauling existing QA or test automation efforts.
+My work involves defining processes and procedures, ensuring the right people are in the appropriate roles, as well as choosing and deploying testing tools and frameworks. I also work closely with my teams to identify and solve testing challenges, be it concerning process accommodations, technical solutions, or skills enhancement.
 
-I am also the creator and maintainer of [Qadenz](http://qadenz.dev), a Java-based test automation library built around Selenium and TestNG that takes the heavy lifting out of automation development and allow teams to focus instead on rapid creation of automated tests.
+My experience includes leading and managing teams in companies ranging from seed stage startups to Fortune 50 enterprises. I work to bring  teams online, make them operational, and quickly adding value to both the testing efforts and general product quality.
+
+I am also a strong believer in the Culture of Quality concept. Quality is not bolted on at the end of a development cycle. Quality must be baked in by everyone involved in the SDLC, regardless of role.
