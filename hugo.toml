@@ -16,7 +16,7 @@ theme = "triple-hyde"
     since = 2025
     license = "CC BY-NC-ND"
     licenseURL = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
-    showBuiltWith = true
+    showBuiltWith = false
 
 ## Social Accounts
 [params.social]
