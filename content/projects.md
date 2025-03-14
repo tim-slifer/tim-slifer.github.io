@@ -45,7 +45,7 @@ Superfly-CSV is available on [GitHub](https://github.com/tim-slifer/superfly-csv
 
 ## AfterDark IntelliJ Editor Theme
 
-When I started coding, I found myself quickly bored of the default editor themes in Eclipse and later in IntelliJ. There were many options on the web for downloadable themes, and I settled into a small group of options that I retated through as my tastes and moods changed. Eventually, it occurred to me that a color theme could be a functional part of my development tool rather than strictly a cosmetic change.
+When I started coding, I found myself quickly bored of the default editor themes in Eclipse and later in IntelliJ. There were many options on the web for downloadable themes, and I settled into a small group of options that I rotated through as my tastes and moods changed. Eventually, it occurred to me that a color theme could be a functional part of my development tool rather than strictly a cosmetic change.
 
 I started with a dark theme and a pallette of neon colors. The resulting effort yielded a theme where every option has been deliberately chosen in order to maximize the readability of code. Each color represents a specific type of expression and text styling represents a specific type of usage. By taking visual cues from how the theme presents code in my editor, I can more quickly understand the structure of the code I'm reading.
 
@@ -61,4 +61,4 @@ This one isn't overly restrictive and it generally stays out of the way. The int
 
 I usually only update this when JetBrains releases a major version of IntelliJ, which equates to about once a year.
 
-The formatter is avaialble on [GitHub](https://github.com/tim-slifer/intellij-codestyle).
+The formatter is available on [GitHub](https://github.com/tim-slifer/intellij-codestyle).
