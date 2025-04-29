@@ -2,7 +2,10 @@
 baseurl = "https://example.com/"
 languageCode = "en"
 title = "Tim Slifer"
-theme = "triple-hyde"
+
+[module]
+  [[module.imports]]
+    path = "github.com/derme302/triple-hyde"
 
 ## Site Settings
 [params]
